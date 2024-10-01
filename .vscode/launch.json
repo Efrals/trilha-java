@@ -1,0 +1,123 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "retornoDeNome",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod1.retornoDeNome",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod2.TiposVariaveis",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveisConstante",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod2.TiposVariaveisConstante",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores1String",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores1String",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores2StringENumeros",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores2StringENumeros",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores3",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores3",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores4UnariosIteracoes",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores4UnariosIteracoes",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores5Boolean",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores5Boolean",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores6Ternarios",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores6Ternarios",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores7Realacionais1Numeros",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores7Realacionais1Numeros",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores7Realacionais2Conteudo",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores7Realacionais2Conteudo",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Operadores8Logicos",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod3.Operadores8Logicos",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Argumentos1",
+            "request": "launch",
+            "mainClass": "edu.efraim.cod4.Argumentos1",
+            "projectName": "trilha-java_980e2a1"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "projetos.p1SmartTv.Usuario",
+            "projectName": "trilha-java_980e2a1"
+        }
+        {
+            "type": "java",
+            "request": "launch",
+            "mainClass": "Argumentos1",
+            "args": [
+                "Efraim",
+                "Rocha",
+                "30",
+                "1.70"
+            ]
+        }
+    ]
+}
