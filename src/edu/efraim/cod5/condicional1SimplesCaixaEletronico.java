@@ -1,5 +1,5 @@
 package edu.efraim.cod5;
-public class condicionalSimplesCaixaEletronico {
+public class condicional1SimplesCaixaEletronico {
     public static void main(String[] args) {
         
         double saldo = 25;

@@ -15,7 +15,7 @@ public class Argumentos2 {
         System.out.println("Digite a sua idade:");
         int idade = scanner.nextInt();
 
-        System.out.println("Digitegfg a sua altura (em metros):");
+        System.out.println("Digite a sua altura (em metros):");
         double altura = scanner.nextDouble();
 
         System.out.println();
@@ -23,6 +23,8 @@ public class Argumentos2 {
         System.out.println("Meu nome é " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + "m");
+
+        scanner.close();
     }
 
 }
