@@ -1,5 +1,4 @@
 package edu.efraim.cod5;
-import java.util.Scanner;
 
 public class condicional51SwitchCase {
     public static void main(String[] args) {

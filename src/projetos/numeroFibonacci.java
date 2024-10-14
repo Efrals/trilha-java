@@ -10,6 +10,7 @@ public class numeroFibonacci {
         // Solicitando um número ao usuário
         System.out.print("Informe um número: ");
         int numero = scanner.nextInt();
+        scanner.close();
 
         // Verificando se o número informado está na sequência de Fibonacci
         if (fibonacci(numero))
