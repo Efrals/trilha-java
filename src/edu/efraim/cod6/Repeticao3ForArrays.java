@@ -5,8 +5,8 @@ public class Repeticao3ForArrays {
         
         String cadastrados [] = {"Ana", "Maria", "João", "Kat", "Maycom"};
 
-        for (int x = 0; x < cadastrados.length; x++) {
-            System.out.println("O cadastrado no índice X=" + x + " é " + cadastrados [x]);
+        for (int i = 0; i < cadastrados.length; i++) {     //(i+1) adiciona 1 no valor impresso para melhor didática
+            System.out.println("O cadastrado no índice I=" + (i+1) + " é " + cadastrados [i]);
         }
     }
 }
