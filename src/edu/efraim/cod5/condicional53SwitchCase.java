@@ -6,14 +6,14 @@ public class condicional53SwitchCase {
         String plano = "S";
 
         switch (plano) {
-            case "S" : {
+            case "S": {
                 System.out.println("5GB de Internet");
             }
-            case "M" : {
+            case "M": {
                 System.out.println("Whatsapp ilimitado");
 
             }
-            case "B" : {
+            case "B": {
                 System.out.println("100 minutos de ligação");
             }
         }

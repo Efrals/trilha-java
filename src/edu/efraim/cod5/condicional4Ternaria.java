@@ -1,4 +1,5 @@
 package edu.efraim.cod5;
+
 import java.util.Scanner;
 
 public class condicional4Ternaria {
