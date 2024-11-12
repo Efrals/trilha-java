@@ -1,6 +1,6 @@
 package edu.efraim.cod13heranca;
 
-public class ServicoDeMensagens {
+public class ServicoDeMensagens1 {
     private void validarConexao() {
         System.out.println("Validando conexão");
     }
