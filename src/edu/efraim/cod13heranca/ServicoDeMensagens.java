@@ -1,7 +1,6 @@
-package edu.efraim.cod12encapsulamento;
+package edu.efraim.cod13heranca;
 
-public class Mensageiro {
-
+public class ServicoDeMensagens {
     private void validarConexao() {
         System.out.println("Validando conexão");
     }

@@ -1,9 +1,9 @@
 package edu.efraim.cod12encapsulamento;
 
-public class Dispositivo {
+public class Dispositivo1 {
 
     public static void main(String[] args) {
-        Mensageiro mensagem = new Mensageiro();
+        Mensageiro1 mensagem = new Mensageiro1();
 
         mensagem.enviarMensagem();
 
