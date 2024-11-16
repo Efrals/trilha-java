@@ -1,10 +1,10 @@
 package edu.efraim.cod16interface.sistema;
 
+import edu.efraim.cod16interface.digitalizadora.ChecarTrilhaScanner;
+import edu.efraim.cod16interface.digitalizadora.Digitalizadora;
 import edu.efraim.cod16interface.impressora.ChecarTonnerEImprimir;
 import edu.efraim.cod16interface.impressora.Impressora;
 import edu.efraim.cod16interface.multifuncional.Multifuncional;
-import edu.efraim.cod16interface.digitalizadora.ChecarTrilhaScanner;
-import edu.efraim.cod16interface.digitalizadora.Digitalizadora;
 
 public class Computador {
     public static void main(String[] args) {
