@@ -1,4 +1,4 @@
-package edu.efraim.cod16interface.sistema;
+package edu.efraim.cod16interface;
 
 import edu.efraim.cod16interface.digitalizadora.ChecarTrilhaScanner;
 import edu.efraim.cod16interface.digitalizadora.Digitalizadora;
