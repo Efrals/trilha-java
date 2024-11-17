@@ -1,6 +1,7 @@
 package edu.efraim.cod8noeencadeamentos.noemgenerics;
 
 public class NoEEncadiamentosDeNos {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     public static void main(String[] args) {
 
         No<String> no1 = new No("Conteudo no1");

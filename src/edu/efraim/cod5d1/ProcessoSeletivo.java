@@ -1,4 +1,4 @@
-package projetos.p3ProcessoSeletivo;
+package edu.efraim.cod5d1;
 
 import java.util.concurrent.ThreadLocalRandom;
 

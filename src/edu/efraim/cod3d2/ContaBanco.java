@@ -1,4 +1,4 @@
-package projetos.p2ContaBanco;
+package edu.efraim.cod3d2;
 import java.util.Scanner;
 
 public class ContaBanco {

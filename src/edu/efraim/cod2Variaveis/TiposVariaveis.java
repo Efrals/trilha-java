@@ -1,6 +1,7 @@
 package edu.efraim.cod2Variaveis;
 
 public class TiposVariaveis {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         short numeroCurto = 741;
         int numeroNormal = numeroCurto;

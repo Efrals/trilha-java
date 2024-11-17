@@ -1,4 +1,4 @@
-package projetos.p1SmartTv;
+package edu.efraim.cod3d1;
 
 public class Usuario {
     public static void main(String[] args) throws Exception {

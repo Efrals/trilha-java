@@ -1,4 +1,4 @@
-package projetos;
+package edu.efraim;
 import java.util.Scanner;
 
 public class numeroFibonacci {
