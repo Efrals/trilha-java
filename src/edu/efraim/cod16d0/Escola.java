@@ -1,4 +1,4 @@
-package edu.efraim.exemplos.EstruturaBasePOO;
+package edu.efraim.cod16d0;
 
 //1º cria um molde
 // Criando objetos a partir da classe Estudante
