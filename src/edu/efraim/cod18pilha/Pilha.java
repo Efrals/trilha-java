@@ -26,7 +26,7 @@ public class Pilha {
         while (!pilha.isEmpty()) {
             System.out.println();
             System.out.println("Elemento removido: " + pilha.pop());
-                System.out.println("Pilha atual: " + pilha);
+            System.out.println("Pilha atual: " + pilha);
         }
     }
 }
