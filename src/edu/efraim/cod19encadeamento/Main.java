@@ -1,4 +1,4 @@
-package edu.efraim.cod19listasencadeadas;
+package edu.efraim.cod19encadeamento;
 
 public class Main {
     public static void main(String[] args) {
