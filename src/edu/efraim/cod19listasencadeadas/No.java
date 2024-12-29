@@ -43,13 +43,12 @@ public class No<T> {
         sb.append(", proximoNo=").append(proximoNo);
         sb.append('}');
         return sb.toString();
-    }
 
-    if(proximoNo != null){
-        str += "-> " + proximoNo.toString();
-    } else {
-        str += "-> null";
+        if(proximoNo != null){
+            str += "-> " + proximoNo.toString();
+        } else {
+            str += "-> null";
+        }
+            return str;
     }
-    return str;
-
 }

@@ -1,8 +1,8 @@
-package exercícios.ex8Contador;
+package edu.efraim.cod7d1;
 
 import java.util.Scanner;
 
-public class ex8Contador {
+public class Contador {
     public static void main(String[] args) {
 
         Scanner terminal = new Scanner(System.in);

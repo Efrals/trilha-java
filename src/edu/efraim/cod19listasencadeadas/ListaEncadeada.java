@@ -2,10 +2,10 @@ package edu.efraim.cod19listasencadeadas;
 
 public class ListaEncadeada<T> {
 
-    No<T> refenciaEntrada;
+    No<T> referenciaEntrada;
 
     public ListaEncadeada(){
-        this.refenciaEntrada = null;
+        this.referenciaEntrada = null;
     }
 
     public void add(T conteudo){
@@ -17,7 +17,7 @@ public class ListaEncadeada<T> {
         }
 
         No<T> noAuxiliar = referenciaEntrada;
-            for (int i = 0; i < this.size()-l; i++){
+            for (int i = 0; i < this.size()-1; i++){
                 noAuxiliar = noAuxiliar.getProximoNo();
             }
 
@@ -30,11 +30,11 @@ public class ListaEncadeada<T> {
 
     private No<T> getNo(int index){
         validaIndice(index);
-        No<T> noAuxi1iar = referenciaEntrada;
+        No<T> noAuxiliar = referenciaEntrada;
         No<T> noRetorno = null;
-        for (int i = 0; i < this.size()-1; i++){
+        for (int i = 0; i <= index; i++){
             noRetorno = noAuxiliar;
-            noAuxiIiar = noAuxiliar.getProximoNo();
+            noAuxiliar = noAuxiliar.getProximoNo();
         }
         return noRetorno;
     }
@@ -55,7 +55,7 @@ public class ListaEncadeada<T> {
 
     public int size(){
         int tamanhoLista = 0;
-        No<T> referenciaAux = refenciaEntrada;
+        No<T> referenciaAux = referenciaEntrada;
         while(true){
             if(referenciaAux != null){
                 tamanhoLista++;
@@ -82,12 +82,12 @@ public class ListaEncadeada<T> {
         return referenciaEntrada == null ? true : false;
     }
 
-    @0verride
+    @Override
     public String toString() {
         String strRetorno = "";
-        No<T> noAuxiIiar = referenciaEntrada;
+        No<T> noAuxiliar = referenciaEntrada;
         for(int i = 0; i < this.size(); i++){
-            strRetorno += "[No {conteudo= " + noAuxiIiar.getConteudo() + "}] --->";
+            strRetorno += "[No {conteudo= " + noAuxiliar.getConteudo() + "}] --->";
         }
         strRetorno += "null";
         return strRetorno;

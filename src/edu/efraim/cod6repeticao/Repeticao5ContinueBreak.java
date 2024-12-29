@@ -8,7 +8,7 @@ public class Repeticao5ContinueBreak {
         for (int numero = 0; numero <= 5; numero++) {
             if (numero == 2 || numero == 4)
                 continue;
-                System.out.println(numero);
+            System.out.println(numero);
         }
 
         System.out.println();
@@ -18,7 +18,7 @@ public class Repeticao5ContinueBreak {
         for (int numero = 0; numero <= 5; numero++) {
             if (numero == 2)
                 break;
-                System.out.println(numero);
+            System.out.println(numero);
         }
 
     }

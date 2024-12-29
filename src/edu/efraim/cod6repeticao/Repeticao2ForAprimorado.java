@@ -17,7 +17,7 @@ public class Repeticao2ForAprimorado {
                 System.out.println("Dormiu zzz");
             else
                 System.out.println("Acordado");
-                System.out.println();
+            System.out.println();
         }
         System.out.println("Saiu da repetição");
     }

@@ -18,7 +18,7 @@ public class Repeticao1For {
                 System.out.println("Dormiu zzz");
             else
                 System.out.println("Acordado");
-                System.out.println();
+            System.out.println();
         }
         System.out.println("Saiu da repetição");
     }
